@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/jr.ziegler/Joao Rodrigo Ziegler/Learning/iOS 13 &amp; Swift 5/Projects/Xylophone/Xylophone/Note.swift">
+   </FileRef>
+   <FileRef
       location = "group:../README.md">
    </FileRef>
    <FileRef
