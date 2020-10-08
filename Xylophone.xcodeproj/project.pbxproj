@@ -20,6 +20,7 @@
 		AC2D58AE252F1AF300C200B3 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58A7252F1AF300C200B3 /* E.wav */; };
 		AC2D58AF252F1AF300C200B3 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58A8252F1AF300C200B3 /* B.wav */; };
 		AC2D58B0252F1AF300C200B3 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58A9252F1AF300C200B3 /* G.wav */; };
+		AC2D58B3252F232C00C200B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58B2252F232C00C200B3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		AC2D58A7252F1AF300C200B3 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		AC2D58A8252F1AF300C200B3 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
 		AC2D58A9252F1AF300C200B3 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		AC2D58B2252F232C00C200B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AC2D587E252EF7D700C200B3 = {
 			isa = PBXGroup;
 			children = (
+				AC2D58B2252F232C00C200B3 /* README.md */,
 				AC2D5889252EF7D700C200B3 /* Xylophone */,
 				AC2D5888252EF7D700C200B3 /* Products */,
 			);
@@ -162,6 +165,7 @@
 				AC2D58B0252F1AF300C200B3 /* G.wav in Resources */,
 				AC2D58AF252F1AF300C200B3 /* B.wav in Resources */,
 				AC2D58AE252F1AF300C200B3 /* E.wav in Resources */,
+				AC2D58B3252F232C00C200B3 /* README.md in Resources */,
 				AC2D5892252EF7D700C200B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
