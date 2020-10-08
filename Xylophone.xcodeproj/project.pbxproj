@@ -21,6 +21,7 @@
 		AC2D58AF252F1AF300C200B3 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58A8252F1AF300C200B3 /* B.wav */; };
 		AC2D58B0252F1AF300C200B3 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58A9252F1AF300C200B3 /* G.wav */; };
 		AC2D58B3252F232C00C200B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC2D58B2252F232C00C200B3 /* README.md */; };
+		AC2D58B6252F526B00C200B3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2D58B5252F526B00C200B3 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AC2D58A8252F1AF300C200B3 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
 		AC2D58A9252F1AF300C200B3 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		AC2D58B2252F232C00C200B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC2D58B5252F526B00C200B3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Note.swift; path = "/Users/jr.ziegler/Joao Rodrigo Ziegler/Learning/iOS 13 & Swift 5/Projects/Xylophone/Xylophone/Note.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +77,11 @@
 			children = (
 				AC2D588A252EF7D700C200B3 /* AppDelegate.swift */,
 				AC2D588C252EF7D700C200B3 /* SceneDelegate.swift */,
-				AC2D588E252EF7D700C200B3 /* ViewController.swift */,
-				AC2D5890252EF7D700C200B3 /* Main.storyboard */,
-				AC2D5893252EF7D800C200B3 /* Assets.xcassets */,
-				AC2D5895252EF7D800C200B3 /* LaunchScreen.storyboard */,
 				AC2D5898252EF7D800C200B3 /* Info.plist */,
+				AC2D58B8252F537700C200B3 /* Model */,
+				AC2D58BB252F538D00C200B3 /* View */,
+				AC2D58B9252F537E00C200B3 /* Controller */,
+				AC2D5893252EF7D800C200B3 /* Assets.xcassets */,
 				AC2D58A1252EF96900C200B3 /* Sounds */,
 			);
 			path = Xylophone;
@@ -97,6 +99,31 @@
 				AC2D58A9252F1AF300C200B3 /* G.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AC2D58B8252F537700C200B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC2D58B5252F526B00C200B3 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC2D58B9252F537E00C200B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC2D588E252EF7D700C200B3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC2D58BB252F538D00C200B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC2D5890252EF7D700C200B3 /* Main.storyboard */,
+				AC2D5895252EF7D800C200B3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +207,7 @@
 				AC2D588F252EF7D700C200B3 /* ViewController.swift in Sources */,
 				AC2D588B252EF7D700C200B3 /* AppDelegate.swift in Sources */,
 				AC2D588D252EF7D700C200B3 /* SceneDelegate.swift in Sources */,
+				AC2D58B6252F526B00C200B3 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
